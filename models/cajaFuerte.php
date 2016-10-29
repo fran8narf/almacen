@@ -12,7 +12,7 @@
  * @author Fran
  */
 class cajaFuerte {
-    private $ID;
+    private $ID = 0;
     private $color;
     private $altura;
     private $anchura;
@@ -21,14 +21,12 @@ class cajaFuerte {
     private $fecha_registro;
     
     
-    public function __construct($ID, $color, $altura, $anchura, $profundidad, $clave_desbloqueo) {
-        $this->ID = $ID;
+    public function __construct($color, $altura, $anchura, $profundidad, $clave_desbloqueo) {
         $this->color = $color;
         $this->altura = $altura;
         $this->anchura = $anchura;
         $this->profundidad = $profundidad;
         $this->clave_desbloqueo = $clave_desbloqueo;
-        $this->fecha_registro = new Date();
     }
     
     public function getID() {

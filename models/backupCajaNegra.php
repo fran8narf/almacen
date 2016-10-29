@@ -7,10 +7,10 @@
  */
 
 /**
- * Description of operaciones
+ * Description of backupCajaNegra
  *
  * @author Fran
  */
-class operaciones {
+class backupCajaNegra {
     //put your code here
 }
